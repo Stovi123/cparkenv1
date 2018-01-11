@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="da">
+
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <title>Galleri</title>
+  </head>
+
+<body>
+  <header>
+
+    <!--sprog u. link-->
+        <img class="sprog_da" src="img/flag2.png"></a>
+        <img class="sprog_en" src="img/flag1.png"></a>
+        <!--sprog u. link slut-->
+
+<!--burgerbar-->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="information.html">Information</a>
+      <a href="indsatsomraader.html">Indsatsområder</a>
+       <div class="skub">
+         <a class="skub" href="forebyggelse.html">Forebyggelse og Forældreansvar</a>
+         <a class="skub" href="uddannelse.html">Uddannelse og Beskæftigelse</a>
+         <a class="skub" href="kriminal.html">Kriminalpræventiv indsats</a>
+         <a class="skub" href="tryghedogtrivsel.html">Tryghed og Trivsel</a>
+       </div>
+       <a href="aktiviteter.html">Aktiviteter</a>
+       <a href="galleri.html">Galleri</a>
+       <a href="kontakt.html">Kontakt</a>
+    </div>
+</div>
+
+    <span style="font-size:30px;cursor:pointer" class="menu" onclick="openNav()">&#9776;</span>
+    <script>
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+    <!--burger bar slut-->
+
+    <!--søgefelt-->
+        <form>
+          <input type="text" name="search" placeholder="Søg...">
+        </form>
+    <!--søgefelt slut-->
+
+    <!--logo-->
+        <h2><a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
+          <a class="logo" href="index.html">C PARKEN</a></h2>
+          <p class="underlogo">Vejleåparkens boligsociale helhedsplan</p>
+    <!--logo slut-->
+    </header>
+
+
+<!--til toppen-->
+<a onclick="topFunction()" id="myBtn" title="Go to top">Til Toppen</a>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// scroller til toppen af siden
+function topFunction() {
+    document.body.scrollTop = 0; // til safari
+    document.documentElement.scrollTop = 0; // Chrome og Firefox
+}
+</script>
+
+<!--til toppen slut-->
+
+
+  <!--nav bar-->
+  <nav>
+    <ul id="ulnav">
+      <li><a class="nav" href="information.html">Information</a></li>
+
+      <div class="dropdown">
+        <li><a class="nav" href="indsatsomraader.html">Indsatsområder</a></li>
+        <div class="dropdown-content">
+          <li><a class="navdrop" href="indsatsomraader.html">Indsatsområder</a></li>
+          <li><a class="navdrop" href="forebyggelse.html">Forebyggelse og Forældreansvar</a></li>
+          <li><a class="navdrop" href="uddannelse.html">Uddannelse og Beskæftigelse</a></li>
+          <li><a class="navdrop" href="kriminal.html">Kriminalpræventiv indsats</a></li>
+          <li><a class="navdrop" href="tryghedogtrivsel.html">Tryghed og Trivsel</a></li>
+        </div>
+      </div>
+      <li><a class="nav" href="aktiviteter.html">Aktiviteter</a></li>
+      <li><a class="nav" href="galleri.html">Galleri</a></li>
+      <li><a class="nav" href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!--nav bar slut-->
+  <h3>Her ses nogle billeder af vores mange aktiviteter. </h3>
+
+<!--<div class="container">-->
+  <div id="images-box">
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Beboer.jpeg" alt="beboer" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/dab.JPG" alt="pige_med_spraydåse" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/dab2.jpeg" alt="børn_med_spraydåser" style="max-width:100%; width:320px; height:153.32px;"> <!--height:153.32px-->
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/dab3.JPG" alt="mand_med_grafitidåse" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/dab4.jpeg" alt="gruppebillede" style="max-width:100%; width:320px; height:153.32px;"> <!--height:153.32px-->
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/DB.jpeg" alt="dansekonkurence" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/graph.JPG" alt="piger_med_spraydåser" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/graph2.JPG" alt="piger_gruppebilleder" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/graph3.JPG" alt="piger_gruppebillede2" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/graph4.JPG" alt="piger_gruppebillede3" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/graph5.JPG" alt="færdige_produkt" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/grøn1.jpeg" alt="familier_i_parken" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/grøn2.jpeg" alt="børn_i_parken" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/hop.jpg" alt="hoppeborg" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/ildfluer.jpeg" alt="drenge-som-brændmænd" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/ildfluer2.jpeg" alt="gruppe_billede" style="max-width:100%; width:320px; height:153.32px;"> <!--height:153.32px-->
+      </div>
+    </div>
+
+    <video width="250" height="166" max-width:"100%" controls>
+      <source src="img/IMG_0567.MOV" type="video/mp4">
+      Din browser støtter ikke denne type video.
+    </video>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_0572.jpeg" alt="model_gruppebillede" style="max-width:100%; width:320px; height:153.32px;"> <!--height:153.32px-->
+      </div>
+    </div>
+
+    <video width="250" height="166" max-width:"100%" controls>
+      <source src="img/IMG_0611.MOV" type="video/mp4">
+      Din browser støtter ikke denne type video.
+    </video>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_1970.jpg" alt="dreng_med_ansigtsmaling" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_1980.jpg" alt="hånd_med_hennamønster" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_1991.jpg" alt="drenge_spiller_bordfodbold"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_1997.jpg" alt="hammer_og_søm"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/IMG_9075.jpg" alt="gruppebillede"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <video width="250" height="166" max-width:"100%" controls>
+      <source src="img/koncert2.MOV" type="video/mp4">
+      Din browser støtter ikke denne type video.
+    </video>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/koncert3.jpg" alt="sanger"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Leif.jpeg" alt="ny_beboer"   style="max-width:100%; width:320px; height:153.32px;"> <!--height:153.32px-->
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Nabohjælp.jpeg" alt="nabohjælp"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Nabohjælp2.jpeg" alt="Nabohjælp2" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Nabohjælp3.jpeg" alt="Nabohjælp3"  style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <video width="250" height="166" max-width:"100%" controls>
+      <source src="img/tromme.MOV" type="video/mp4">
+      Din browser støtter ikke denne type video.
+    </video>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/UU-vejleder.jpeg" alt="Vejleder" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+
+    <div class="holder">
+      <div class="image-lightbox">
+        <img src="img/Vejleåparken.jpeg" alt="Vejleåparken" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
